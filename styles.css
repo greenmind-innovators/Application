@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins';
     background-color: #f8fafc;
     height: 100vh;
-    padding: 20px;
+    padding: 20px;   
 }
 
 /* -----------------------------------Start of styling for index.html----------------------------------- */
@@ -237,7 +237,7 @@ body {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 }  */
 
-  .footer-tab-bar span {
+.footer-tab-bar span {
     font-size: 16px;
     font-family: 'Poppins';
     color: #f8fafc;
@@ -930,5 +930,27 @@ body {
     font-size: 14px;
 }
 
+.footer-tab-bar-setting {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    background: #79b313;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px 24px 12px;
+    z-index: 2;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}  
+
+.footer-tab-bar-setting span {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #f8fafc;
+    font-weight: 600;
+}
 
 /* -----------------------------------End of styling for setting.html----------------------------------- */
