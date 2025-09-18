@@ -815,11 +815,6 @@ body {
 /* -----------------------------------End of styling for result.html----------------------------------- */
 
 /* -----------------------------------Start of styling for setting.html----------------------------------- */
- .main-content-setting {
-    flex: 1;
-    margin-top: 60px;
-} 
-
 .setting-container h2 {
     font-size: 24px;
     color: #2d3748;
@@ -946,9 +941,8 @@ body {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 }   */
 
- .footer-tab-bar-setting {
-    position: static;
-    margin: 0 -20px;
+ .footer-tab-bar-setting {    
+    /* margin: 0 -20px; */
     height: 54px;
     background: #79b313;
     border-top: 1px solid #e2e8f0;
