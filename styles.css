@@ -221,7 +221,7 @@ body {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 } 
 
-/*  .footer-tab-bar-2 {
+/*  .footer-tab-bar {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -237,35 +237,13 @@ body {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 }  */
 
-  .footer-tab-bar-2 {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 54px;
-    background: #79b313;
-    border-top: 1px solid #e2e8f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 12px 24px 12px;
-    z-index: 2;
-    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-}  
-
-.footer-tab-bar span {
+  .footer-tab-bar span {
     font-size: 16px;
     font-family: 'Poppins';
     color: #f8fafc;
     font-weight: 600;
 }
 
-.footer-tab-bar-2 span {
-    font-size: 16px;
-    font-family: 'Poppins';
-    color: #f8fafc;
-    font-weight: 600;
-}
 
 /* -----------------------------------End of styling for application.html----------------------------------- */
 
@@ -953,6 +931,26 @@ body {
     border-radius: 8px;
     color: #666;
     font-size: 14px;
+}
+
+.footer-tab-bar-setting {
+    position: static;
+    height: 54px;
+    background: #79b313;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px 24px 12px;   
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+}  
+
+
+.footer-tab-bar-setting span {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #f8fafc;
+    font-weight: 600;
 }
 
 /* -----------------------------------End of styling for setting.html----------------------------------- */
