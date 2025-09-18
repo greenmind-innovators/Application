@@ -221,7 +221,7 @@ body {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 } 
 
- .footer-tab-bar-2 {
+/*  .footer-tab-bar-2 {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -235,7 +235,7 @@ body {
     padding: 24px 12px 24px 12px;
     z-index: 2;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-} 
+}  */
 
 .footer-tab-bar span {
     font-size: 16px;
