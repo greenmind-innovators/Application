@@ -933,7 +933,7 @@ body {
     font-size: 14px;
 }
 
-.footer-tab-bar-setting {
+/* .footer-tab-bar-setting {
     position: static;
     height: 54px;
     background: #79b313;
@@ -943,7 +943,21 @@ body {
     align-items: center;
     padding: 24px 12px 24px 12px;   
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-}  
+}   */
+
+ .footer-tab-bar-setting {
+    position: static;
+    margin: 0 -20px;
+    height: 54px;
+    background: #79b313;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px 24px 12px;
+    z-index: 2;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+} 
 
 
 .footer-tab-bar-setting span {
