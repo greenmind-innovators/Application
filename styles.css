@@ -206,7 +206,22 @@ body {
 }
 
 /* Footer */
-/* .footer-tab-bar {
+
+ .footer-tab-bar {
+    position: relative;
+    margin: 0 -20px;
+    height: 54px;
+    background: #79b313;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px 24px 12px;
+    z-index: 2;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+} 
+
+ .footer-tab-bar-2 {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -220,21 +235,7 @@ body {
     padding: 24px 12px 24px 12px;
     z-index: 2;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-} */
-
-/* .footer-tab-bar-2 {
-    position: relative;
-    margin: 0 -20px;
-    height: 54px;
-    background: #79b313;
-    border-top: 1px solid #e2e8f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 12px 24px 12px;
-    z-index: 2;
-    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
-} */
+} 
 
 .footer-tab-bar span {
     font-size: 16px;
@@ -252,7 +253,7 @@ body {
 
 .main-content {
     margin-top: 60px;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .features {
